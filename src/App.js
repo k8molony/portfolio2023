@@ -8,6 +8,7 @@ import ProjectDetail from './pages/ProjectDetail';
 import ContactForm from './pages/Contact';
 import logo from './assets/kmlogo.svg';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/projects/:name' element={<ProjectDetail userName='k8molony' />} />
           <Route path='/contact' element={<ContactForm/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
