@@ -9,7 +9,7 @@ function ProjectDetail({ userName }) {
   useEffect(() => {
     async function fetchData() {
       const data = await fetch(
-        `https://api.github.com/repos/${userName}/${name}`,
+        `https://api.github.com/repos/k8molony/superFlix-client`
       );
       const result = await data.json();
       if (result) {
@@ -23,13 +23,9 @@ function ProjectDetail({ userName }) {
   }, [userName, name]);
 
   return (
-    <div className='Project-container'>
-      <h2>Project: {project.name}</h2>
-      {loading ? (
-        <span>Loading...</span>
-      ) : (
-        <div></div>
-      )}
+    <div className="Project-container">
+      <h3>Project: {project.name}</h3>
+      {loading ? <span>Loading...</span> : <div></div>}
     </div>
   );
 }

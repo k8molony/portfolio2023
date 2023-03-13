@@ -2,11 +2,22 @@
   width: 50%;
   margin: 10px auto;
 }
+
+.Profile-container > h2 {
+  font-size: larger;
+}
+
+.Profile-container > h3 {
+  font-size: large;
+  font-weight: 400;
+}
+
 .Profile-avatar {
   width: 150px;
   border-radius: 25px;
   display: block;
   margin: 0 auto;
+  margin-top: 5%;
 }
 .Profile-container > ul {
   list-style: none;

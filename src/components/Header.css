@@ -19,6 +19,7 @@
   justify-content: center;
   font-size: calc(18px + 2vmin);
   color: rgb(4, 4, 4);
+  font-family: 'Poiret One', cursive;
 }
 
 .App-header > nav {
@@ -26,7 +27,7 @@
 }
 
 .App-header > nav > .App-link {
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 @keyframes App-logo-spin {
