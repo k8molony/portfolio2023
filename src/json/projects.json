@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "",
+    "title": "superFlix",
+    "desc": "",
+    "thumbnail": ""
+  },
+  "project2": {
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "",
+    "title": "meet",
+    "desc": "",
+    "thumbnail": ""
+  },
+  "project3": {
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "",
+    "title": "chat",
+    "desc": "",
+    "thumbnail": ""
+  },
+  "project4": {
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "",
+    "title": "Pokédex",
+    "desc": "",
+    "thumbnail": ""
+  }
+}
