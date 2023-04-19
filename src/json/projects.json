@@ -3,8 +3,10 @@
     "src": "",
     "width": 640,
     "height": 360,
-    "link": "",
+    "link": "https://superflixheroes.netlify.app/",
     "title": "superFlix",
+      "subtitle": "",
+      "info": "",
     "desc": "",
     "thumbnail": ""
   },
@@ -12,8 +14,10 @@
     "src": "",
     "width": 640,
     "height": 360,
-    "link": "",
+    "link": "https://k8molony.github.io/meet/",
     "title": "meet",
+      "subtitle": "",
+      "info": "",
     "desc": "",
     "thumbnail": ""
   },
@@ -23,6 +27,8 @@
     "height": 360,
     "link": "",
     "title": "chat",
+      "subtitle": "",
+      "info": "",
     "desc": "",
     "thumbnail": ""
   },
@@ -30,8 +36,10 @@
     "src": "",
     "width": 640,
     "height": 360,
-    "link": "",
+    "link": "https://k8molony.github.io/Pokedex-Database/",
     "title": "Pokédex",
+      "subtitle": "",
+      "info": "",
     "desc": "",
     "thumbnail": ""
   }

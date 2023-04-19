@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PageTemplate from "../components/templates/PageTemplate";
 import ProjectsJSON from "../json/projects.json";
 
 const Projects = (props) => {
@@ -12,19 +13,15 @@ const Projects = (props) => {
     changeLinkColor("grey");
   }, [changeLinkColor]);
 
-  const { xml } = props;
-
   return (
-    <section className="Projects-container">
-      <div className="thunbnails">
-        <h2>Projects</h2>
-        {xml.map((item, key) => {
-          return <div key={key} className="thumbnail-container"></div>;
-        })}
-      </div>
-    </section>
+    <PageTemplate
+      subtitle="My projects display the wide range of skills I have learned."
+      xml={ProjectsJSON}
+    />
   );
 };
+
+export default Projects;
 
 // import React from "react";
 // import { useState, useEffect } from "react";
@@ -68,5 +65,4 @@ const Projects = (props) => {
 //     </div>
 //   );
 // }
-
-export default Projects;
+// export default Projects;
