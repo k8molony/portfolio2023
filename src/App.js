@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "./components/Header";
+import Welcome from "./pages/Welcome";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
@@ -27,7 +28,8 @@ function App() {
       <BrowserRouter>
         <Header logo={logo} />
         <Routes>
-          <Route exact path="/" element={<Profile userName="k8molony" />} />
+          <Route exact path="/" element={<Welcome />} />
+          <Route path="/profile" element={<Profile userName="k8molony" />} />
           <Route path="/projects" element={<Projects userName="k8molony" />} />
           <Route
             path="/projects/:name"

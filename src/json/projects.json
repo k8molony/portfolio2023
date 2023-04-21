@@ -1,46 +1,68 @@
-{
-  "project1": {
+[
+  {
+    "id": 1,
     "src": "",
     "width": 640,
     "height": 360,
     "link": "https://superflixheroes.netlify.app/",
+    "repo": "https://github.com/k8molony/superFlix-client",
     "title": "superFlix",
       "subtitle": "",
       "info": "",
     "desc": "",
-    "thumbnail": ""
+    "imagePath": "./assets/superflix.png"
   },
-  "project2": {
+  {
+    "id": 2,
     "src": "",
     "width": 640,
     "height": 360,
     "link": "https://k8molony.github.io/meet/",
-    "title": "meet",
+    "repo": "https://github.com/k8molony/meet",
+    "title": "Meet",
       "subtitle": "",
       "info": "",
     "desc": "",
-    "thumbnail": ""
+    "imagePath": "./assets/meet.png"
   },
-  "project3": {
+  {
+    "id": 3,
     "src": "",
     "width": 640,
     "height": 360,
     "link": "",
+    "repo": "https://github.com/k8molony/Chat",
     "title": "chat",
       "subtitle": "",
       "info": "",
     "desc": "",
-    "thumbnail": ""
+    "imagePath": "./assets/chat.jpeg"
   },
-  "project4": {
+  {
+    "id": 4,
     "src": "",
     "width": 640,
     "height": 360,
     "link": "https://k8molony.github.io/Pokedex-Database/",
+    "repo": "https://github.com/k8molony/Pokedex-Database",
     "title": "Pokédex",
       "subtitle": "",
       "info": "",
     "desc": "",
-    "thumbnail": ""
+    "imagePath": "./assets/pokedex.png"
+  },
+  {
+    "id": 5,
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "",
+    "repo": "",
+    "title": "superFlix Angular",
+      "subtitle": "",
+      "info": "",
+    "desc": "",
+    "imagePath": "./assets/superflixAngular.png"
   }
-}
+
+]
