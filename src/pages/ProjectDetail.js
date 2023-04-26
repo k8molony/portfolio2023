@@ -1,35 +1,34 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { Button, Card } from "react-bootstrap";
+import ProjectsJSON from "../json/projects.json";
+import ChatAppVideo from "../components/ChatAppVideo";
 
 export default function ProjectDetail(props) {
-  // const [loading, setLoading] = useState(true);
+  let params = useParams();
   const [projectDetails, setProjectDetail] = useState({});
-
+  console.log(projectDetails);
   useEffect(() => {
-    setProjectDetail({
-      title: props.title,
-      index: props.index,
-      imagePath: props.imagePath,
-      desc: props.desc,
-    });
-    // setLoading(false);
-  }, [props.desc, props.imagePath, props.index, props.title]);
-
-  // const ProjectDetail = (props) => {
-  //   let { title, index, thumbnail, desc } = props;
+    let index = Number(params.name) - 1;
+    setProjectDetail(ProjectsJSON[index]);
+  }, [params]);
+  // useEffect(() => {
+  //   setProjectDetail({
+  //     title: props.title,
+  //     index: props.index,
+  //     imagePath: props.imagePath,
+  //     desc: props.desc,
+  //   });
+  // }, [props.desc, props.imagePath, props.index, props.title]);
 
   return (
-    <div className="project-module">
-      <Link to={`/project-page/${projectDetails.index}`}>
-        <img
-          src={`/bmps${projectDetails.imagePath}`}
-          alt={`${projectDetails.title} thumbnail`}
-        />
-      </Link>
+    <Card className="project-module">
+      <img
+        src={`${projectDetails.imagePath}`}
+        alt={`${projectDetails.title} screenshot`}
+      />
       <h3>
-        <Link to={`/project-page/${projectDetails.index}`}>
-          {projectDetails.title}
-        </Link>
+        <Link to={projectDetails.index}>{projectDetails.title}</Link>
       </h3>
       <p>{projectDetails.desc}</p>
       <Link
@@ -38,6 +37,14 @@ export default function ProjectDetail(props) {
       >
         see project
       </Link>
-    </div>
+
+      {projectDetails.video && <ChatAppVideo />}
+
+      <Link to={`/projects`}>
+        <Button onClick={() => {}} variant="light">
+          Back
+        </Button>
+      </Link>
+    </Card>
   );
 }

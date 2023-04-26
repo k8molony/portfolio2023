@@ -9,21 +9,26 @@
     "title": "superFlix",
       "subtitle": "",
       "info": "",
-    "desc": "",
-    "imagePath": "./assets/superflix.png"
+    "desc": "Using React, this build is for the client-side of an application called superFlix based on its existing server-side code (REST API and database). The entire application is built using the MERN (MongoDB, Express, React, and Node.js) stack. The database is a list of Marvel movies and series, and the end result will be an app that can display the movies in chronological order and give information about each of them as well as their directors, and includes the ability for users to login and save their favorite movies.",
+    "programs": "REST API and database, MERN stack",
+    "imagePath": "images/superflix.png",
+    "caseStudy": "files/SuperFlixCaseStudy.pdf",
+    "thumbnail": "images/superFlixTN.png"
   },
   {
     "id": 2,
     "src": "",
     "width": 640,
     "height": 360,
-    "link": "https://k8molony.github.io/meet/",
-    "repo": "https://github.com/k8molony/meet",
-    "title": "Meet",
+    "link": "https://k8molony.github.io/superFlix-Angular-client/",
+    "repo": "",
+    "title": "superFlix Angular",
       "subtitle": "",
       "info": "",
     "desc": "",
-    "imagePath": "./assets/meet.png"
+    "programs": "Angular CLI, TypeScript",
+    "imagePath": "images/superflixAngular.png",
+    "thumbnail": "images/sfAngTN.png"
   },
   {
     "id": 3,
@@ -36,10 +41,28 @@
       "subtitle": "",
       "info": "",
     "desc": "",
-    "imagePath": "./assets/chat.jpeg"
+    "programs": "React Native, Expo, Google Firestore Database",
+    "imagePath": "images/chat.jpeg",
+    "thumbnail": "images/ChatTN.png",
+    "video": true
   },
   {
     "id": 4,
+    "src": "",
+    "width": 640,
+    "height": 360,
+    "link": "https://k8molony.github.io/meet/",
+    "repo": "https://github.com/k8molony/meet",
+    "title": "Meet",
+      "subtitle": "",
+      "info": "",
+    "desc": "",
+    "programs": "Serverless React PWA using BDD and TDD methodology",
+    "imagePath": "images/meet.png",
+    "thumbnail": "images/meetTN.png"
+  },
+  {
+    "id": 5,
     "src": "",
     "width": 640,
     "height": 360,
@@ -49,20 +72,8 @@
       "subtitle": "",
       "info": "",
     "desc": "",
-    "imagePath": "./assets/pokedex.png"
-  },
-  {
-    "id": 5,
-    "src": "",
-    "width": 640,
-    "height": 360,
-    "link": "",
-    "repo": "",
-    "title": "superFlix Angular",
-      "subtitle": "",
-      "info": "",
-    "desc": "",
-    "imagePath": "./assets/superflixAngular.png"
+    "programs": "HTML, CSS, JavaScript, JQuery, Bootstrap",
+    "imagePath": "images/pokedex.png",
+    "thumbnail": "images/PokedexTN.png"
   }
-
 ]

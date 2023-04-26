@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Button, Row, Col, Card, CardGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ProjectsJSON from "../json/projects.json";
+import "./Projects.css";
 
 export default function Projects() {
   // const [loading, setLoading] = useState(true);
@@ -19,14 +20,12 @@ export default function Projects() {
       {projects?.map((project) => (
         <Col key={project.id}>
           <CardGroup>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" type="fluid" src={project.imagePath} />
+            <Card className="project-card">
+              <Card.Img variant="top" type="fluid" src={project.thumbnail} />
               <Card.Body>
                 <Card.Title>{project.Title}</Card.Title>
-                {/* <Card.Text> */}
-                <div className="project_description">
-                  <span className="project_label">Description: </span>
-                  <span className="project_line_value">{project.desc}</span>
+                <div className="project_programs">
+                  <span className="project_line_value">{project.programs}</span>
                 </div>
 
                 <div className="project_link">
@@ -42,7 +41,14 @@ export default function Projects() {
                     <Button variant="link">Github Repository</Button>
                   </Link>
                 </div>
-                {/* </Card.Text> */}
+
+                <div style={{ marginTop: "12px" }}>
+                  <Link to={`/projects/${project.id}`}>
+                    <Button variant="light" size="sm">
+                      More info
+                    </Button>
+                  </Link>
+                </div>
               </Card.Body>
             </Card>
           </CardGroup>
