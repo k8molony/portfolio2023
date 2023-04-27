@@ -25,8 +25,8 @@
     "title": "superFlix Angular",
       "subtitle": "",
       "info": "",
-    "desc": "",
-    "programs": "Angular CLI, TypeScript",
+    "desc": "The client-side for an application called superFlix based on its existing server-side code (REST API and database), with supporting documentation. This project was generated with Angular CLI version 15.2.4.",
+    "programs": "REST API, Angular CLI, TypeScript, TypeDoc",
     "imagePath": "images/superflixAngular.png",
     "thumbnail": "images/sfAngTN.png"
   },
@@ -40,7 +40,7 @@
     "title": "chat",
       "subtitle": "",
       "info": "",
-    "desc": "",
+    "desc": "Chat App for both Android/iOS created with React Native. The app provides users with a chat interface and options to share images and their location.",
     "programs": "React Native, Expo, Google Firestore Database",
     "imagePath": "images/chat.jpeg",
     "thumbnail": "images/ChatTN.png",
@@ -56,7 +56,7 @@
     "title": "Meet",
       "subtitle": "",
       "info": "",
-    "desc": "",
+    "desc": "A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.",
     "programs": "Serverless React PWA using BDD and TDD methodology",
     "imagePath": "images/meet.png",
     "thumbnail": "images/meetTN.png"
@@ -71,7 +71,7 @@
     "title": "Pokédex",
       "subtitle": "",
       "info": "",
-    "desc": "",
+    "desc": "This small web application is loading data from the external Pokémon API. Users can view a searchable list of 1st generation Pokémon and access their attributes by clicking on their name.",
     "programs": "HTML, CSS, JavaScript, JQuery, Bootstrap",
     "imagePath": "images/pokedex.png",
     "thumbnail": "images/PokedexTN.png"
