@@ -1,53 +1,59 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// function Projects() {
-//   return <Row></Row>;
-// }
-
-// export default Projects;
-
 import React from "react";
 import { useState, useEffect } from "react";
-import { Link as RouterLink } from "react-router-dom";
-import List from "../components/List";
+import { Button, Row, Col, Card, CardGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import ProjectsJSON from "../json/projects.json";
+import "./Projects.css";
 
-function Projects({ userName }) {
-  const [loading, setLoading] = useState(true);
-  const [projects, setProjects] = useState({});
+export default function Projects() {
+  // const [loading, setLoading] = useState(true);
+  const [projects, setProjects] = useState([]);
+
   useEffect(() => {
-    async function fetchData() {
-      const data = await fetch(
-        `https://api.github.com/users/${userName}/repos`
-      );
-      const result = await data.json();
-      if (result) {
-        setProjects(result);
-        setLoading(false);
-      }
-    }
-    fetchData();
-  }, [userName]);
+    setProjects(ProjectsJSON);
+    // setLoading(false);
+    console.log();
+  }, []);
 
   return (
-    <div className="Projects-container">
-      <h2>Projects</h2>
-      {loading ? (
-        <span>Loading...</span>
-      ) : (
-        <div>
-          <List
-            items={projects.map((project) => ({
-              field: project.name,
-              value: (
-                <RouterLink url={project.html_url} title={project.html_url} />
-              ),
-            }))}
-          />
-        </div>
-      )}
-    </div>
+    <Row>
+      {projects?.map((project) => (
+        <Col key={project.id}>
+          <CardGroup>
+            <Card className="project-card">
+              <Card.Img variant="top" type="fluid" src={project.thumbnail} />
+              <Card.Body>
+                <Card.Title>{project.Title}</Card.Title>
+                <div className="project_programs">
+                  <span className="project_line_value">{project.programs}</span>
+                </div>
+
+                <div className="project_link">
+                  <span className="project_label"></span>
+                  <Link to={project.link}>
+                    <Button variant="link">{project.title}</Button>
+                  </Link>
+                </div>
+
+                <div className="github_link">
+                  <span className="project_label"></span>
+                  <Link to={project.repo}>
+                    <Button variant="link">Github Repository</Button>
+                  </Link>
+                </div>
+
+                <div style={{ marginTop: "12px" }}>
+                  <Link to={`/projects/${project.id}`}>
+                    <Button variant="light" size="sm">
+                      More info
+                    </Button>
+                  </Link>
+                </div>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+        </Col>
+      ))}
+    </Row>
   );
 }
-
-export default Projects;

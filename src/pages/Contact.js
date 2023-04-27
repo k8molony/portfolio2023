@@ -26,8 +26,11 @@ const ContactForm = () => {
       <div>
         <p>I would love to hear from you!</p>
         <p>
-          Reach me at
-          <a href="mailto:k8molony@att.net"> k8molony(at)att(dot)net</a>
+          Reach me at&nbsp;
+          <a href="mailto:molony.katy@gmail.com">
+            {" "}
+            molony(dot)katy(at)gmail(dot)com
+          </a>
         </p>
         <p>Or fill out the form below:</p>
       </div>

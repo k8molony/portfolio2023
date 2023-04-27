@@ -1,0 +1,5 @@
+.resume_pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
