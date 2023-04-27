@@ -6,13 +6,10 @@ import ProjectsJSON from "../json/projects.json";
 import "./Projects.css";
 
 export default function Projects() {
-  // const [loading, setLoading] = useState(true);
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     setProjects(ProjectsJSON);
-    // setLoading(false);
-    console.log();
   }, []);
 
   return (
