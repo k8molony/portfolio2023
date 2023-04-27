@@ -9,10 +9,11 @@
     "title": "superFlix",
       "subtitle": "",
       "info": "",
-    "desc": "Using React, this build is for the client-side of an application called superFlix based on its existing server-side code (REST API and database). The entire application is built using the MERN (MongoDB, Express, React, and Node.js) stack. The database is a list of Marvel movies and series, and the end result will be an app that can display the movies in chronological order and give information about each of them as well as their directors, and includes the ability for users to login and save their favorite movies.",
+    "desc": "Using React, this build is for the client-side of an application called superFlix based on its existing server-side code (which I also built using REST API and database). The entire application is built using the MERN (MongoDB, Express, React, and Node.js) stack. The database is a list of Marvel movies and series, and the end result will be an app that can display the movies in chronological order and give information about each of them as well as their directors, and includes the ability for users to login and save their favorite movies.",
     "programs": "REST API and database, MERN stack",
     "imagePath": "images/superflix.png",
-    "caseStudy": "files/SuperFlixCaseStudy.pdf",
+    "imagePath2":"",
+    "caseStudy": true,
     "thumbnail": "images/superFlixTN.png"
   },
   {
