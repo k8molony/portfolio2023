@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import List from "../components/List";
 import Link from "../components/Link";
-import profilePic from "../assets/profileImg.jpeg";
 import "./Profile.css";
 
 function Profile({ userName }) {
@@ -62,8 +61,7 @@ function Profile({ userName }) {
           </p>
           <img
             className="Profile-avatar"
-            // src={profile.avatar_url}
-            src={profilePic}
+            src={profile.avatar_url}
             alt={profile.name}
           />
           <List items={items} />
