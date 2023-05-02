@@ -27,14 +27,22 @@ export default function Projects() {
 
                 <div className="project_link">
                   <span className="project_label"></span>
-                  <Link to={project.link}>
+                  <Link
+                    to={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button variant="link">{project.title}</Button>
                   </Link>
                 </div>
 
                 <div className="github_link">
                   <span className="project_label"></span>
-                  <Link to={project.repo}>
+                  <Link
+                    to={project.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button variant="link">Github Repository</Button>
                   </Link>
                 </div>
