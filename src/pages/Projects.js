@@ -41,7 +41,7 @@ export default function Projects() {
 
                 <div style={{ marginTop: "12px" }}>
                   <Link to={`/projects/${project.id}`}>
-                    <Button variant="light" size="sm">
+                    <Button variant="outline" size="sm">
                       More info
                     </Button>
                   </Link>

@@ -1,3 +1,9 @@
+.btn-outline {
+  color: white;
+  background-color: #3b8296;
+  border-radius: 9999px;
+}
+
 .react-pdf__Page__canvas {
   margin: 0 auto;
   width: 80% !important;

@@ -4,6 +4,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import caseStudyPDF from "../assets/SuperFlixCaseStudy.pdf";
 import { Button } from "react-bootstrap";
+import "./CaseStudy.css";
 
 export default function CaseStudy() {
   const [numPages, setNumPages] = useState(null);
@@ -67,10 +68,18 @@ export default function CaseStudy() {
         <p>
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <Button disabled={pageNumber <= 1} onClick={previousPage}>
+        <Button
+          variant="outline"
+          disabled={pageNumber <= 1}
+          onClick={previousPage}
+        >
           Previous
         </Button>
-        <Button disabled={pageNumber >= numPages} onClick={nextPage}>
+        <Button
+          variant="outline"
+          disabled={pageNumber >= numPages}
+          onClick={nextPage}
+        >
           Next
         </Button>
       </div>
