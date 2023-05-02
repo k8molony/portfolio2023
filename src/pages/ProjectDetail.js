@@ -4,6 +4,7 @@ import { Button, Card } from "react-bootstrap";
 import ProjectsJSON from "../json/projects.json";
 import ChatAppVideo from "../components/ChatAppVideo";
 import CaseStudy from "../components/CaseStudy";
+import "./ProjectDetail.css";
 
 export default function ProjectDetail(props) {
   let params = useParams();
@@ -22,7 +23,9 @@ export default function ProjectDetail(props) {
         <div className="projectDetails_desc">
           <p>{projectDetails.desc}</p>
         </div>
-        {projectDetails.video && <ChatAppVideo />}
+        <div className="extra-container">
+          {projectDetails.video && <ChatAppVideo />}
+        </div>
         {projectDetails.caseStudy && <CaseStudy />}
         <Link to={`/projects`}>
           <Button onClick={() => {}} variant="light">
