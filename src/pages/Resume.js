@@ -37,7 +37,6 @@ export default function Resume(props) {
 
   return (
     <div>
-      {/* <h1>Download my resume</h1> */}
       <DownloadButton filename="Resume.pdf" fileurl={resumePDF} />
       <Document
         className="resume_pdf"

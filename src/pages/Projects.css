@@ -3,3 +3,13 @@ project-card {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.btn-link {
+  color: #3b8296;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #3b8296;
+  border-radius: 9999px;
+}

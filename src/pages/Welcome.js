@@ -42,7 +42,7 @@ function Welcome() {
               making technology more accessible and understandable for everyone.
             </p>
           </div>
-          <img class="h-96" src={welcomePic} alt={welcome.name} />
+          <img class="h-96 pt-4" src={welcomePic} alt={welcome.name} />
         </div>
       )}
     </div>
