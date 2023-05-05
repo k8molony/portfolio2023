@@ -8,3 +8,9 @@
   max-width: 100%;
   height: auto;
 }
+
+.projectDetails_img {
+  max-width: 30%;
+  flex-direction: column;
+  align-items: center;
+}
