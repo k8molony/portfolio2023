@@ -8,34 +8,31 @@
     "title": "superFlix",
     "desc": "Using React, this build is for the client-side of an application called superFlix based on its existing server-side code (which I also built using REST API and database). The entire application is built using the MERN (MongoDB, Express, React, and Node.js) stack. The database is a list of Marvel movies and series, and the end result will be an app that can display the movies in chronological order and give information about each of them as well as their directors, and includes the ability for users to login and save their favorite movies.",
     "programs": "REST API and database, MERN stack",
-    "imagePath": "images/superflix.png",
+    "imagePath": "/images/superflix.png",
     "imagePath2":"",
     "caseStudy": true,
     "thumbnail": "images/superFlixTN.png"
   },
   {
     "id": 2,
-    "width": 640,
-    "height": 360,
     "link": "https://k8molony.github.io/superFlix-Angular-client/",
     "repo": "https://github.com/k8molony/superFlix-Angular-client",
     "title": "superFlix Angular",
     "desc": "The client-side for an application called superFlix based on its existing server-side code (REST API and database), with supporting documentation. This project was generated with Angular CLI version 15.2.4.",
     "programs": "REST API, Angular CLI, TypeScript, TypeDoc",
-    "imagePath": "images/superflixAngular.png",
+    "imagePath": "/images/superflixAngular.png",
     "imagePath2":"",
     "thumbnail": "images/sfAngTN.png"
   },
   {
     "id": 3,
-    "width": 640,
-    "height": 360,
     "link": "",
     "repo": "https://github.com/k8molony/Chat",
     "title": "Chat",
     "desc": "Chat App for both Android/iOS created with React Native. The app provides users with a chat interface and options to share images and their location.",
     "programs": "React Native, Expo, Google Firestore Database",
-    "imagePath": "images/chat.jpeg",
+    "imagePath": "/images/chat.jpeg",
+    "imagePath2":"/images/chat2.jpeg",
     "thumbnail": "images/ChatTN.png",
     "video": true
   },
@@ -48,7 +45,8 @@
     "title": "Meet",
     "desc": "A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.",
     "programs": "Serverless React PWA using BDD and TDD methodology",
-    "imagePath": "images/meet.png",
+    "imagePath": "/images/meet.png",
+    "imagePath2":"",
     "thumbnail": "images/meetTN.png"
   },
   {
@@ -60,7 +58,8 @@
     "title": "Pokédex",
     "desc": "This small web application is loading data from the external Pokémon API. Users can view a searchable list of 1st generation Pokémon and access their attributes by clicking on their name.",
     "programs": "HTML, CSS, JavaScript, JQuery, Bootstrap",
-    "imagePath": "images/pokedex.png",
+    "imagePath": "/images/pokedex.png",
+    "imagePath2":"",
     "thumbnail": "images/PokedexTN.png"
   }
 ]

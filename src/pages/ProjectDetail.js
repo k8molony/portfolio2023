@@ -17,18 +17,31 @@ export default function ProjectDetail(props) {
 
   return (
     <Card className="project-module">
-      <Card.Img variant="top" type="fluid" src={projectDetails.imagePath} />
       <Card.Body>
-        <Card.Title>{projectDetails.Title}</Card.Title>
+        <Card.Title>{projectDetails.title}</Card.Title>
         <div className="projectDetails_desc">
           <p>{projectDetails.desc}</p>
         </div>
         <div className="extra-container">
           {projectDetails.video && <ChatAppVideo />}
+          {projectDetails.caseStudy && <CaseStudy />}
         </div>
-        {projectDetails.caseStudy && <CaseStudy />}
+        <div className="projectDetails_img">
+          <Card.Img
+            variant="top"
+            type="fluid"
+            src={projectDetails.imagePath}
+            alt="project home screen"
+          />
+          <Card.Img
+            variant="top"
+            type="fluid"
+            src={projectDetails.imagePath2}
+            alt="project detail"
+          />
+        </div>
         <Link to={`/projects`}>
-          <Button onClick={() => {}} variant="light">
+          <Button onClick={() => {}} variant="outline" size="sm">
             Back
           </Button>
         </Link>
