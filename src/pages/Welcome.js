@@ -1,5 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Container, Image } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import welcomePic from "../assets/welcomePic.png";
 import "./Welcome.css";
 
@@ -14,38 +17,38 @@ function Welcome() {
   }, [welcome]);
 
   return (
-    <div className="Welcome-container">
-      <h2>Hi, I’m Katy!</h2>
+    <Container className="Welcome-container" fluid>
       {loading ? (
         <span>Loading...</span>
       ) : (
-        <div class="flex flex-row">
-          <div class="basis-2/3 pl-10">
-            <p>
-              I've always had an interest in technology but never thought I
-              could actually code until I suddenly found myself teaching online.
-              I was a French teacher, and due to the global pandemic, I suddenly
-              had to figure out the best way to keep my students interested
-              through a screen. Our district used the LMS Canvas, which has a
-              lot of simple things to do, but to make it even better, it allows
-              you to go into the code. I started playing with that, learning
-              some simple HTML, and realized that there were a lot of
-              similarities between learning that and learning a foreign
-              language. Suddenly, coding seemed so completely doable! I enrolled
-              in an online bootcamp with CareerFoundry and the rest is history!
-            </p>
-            <p>
-              I have a natural analytical ability to make things that are
-              difficult to understand understood, whether it is verbally, on
-              paper, or through an application. That served me well as a high
-              school teacher and serves me well now as a programmer. I enjoy
-              making technology more accessible and understandable for everyone.
-            </p>
-          </div>
-          <img class="h-96 pt-4" src={welcomePic} alt={welcome.name} />
-        </div>
+        <>
+          <Row>
+            <h2>Hi, I’m Katy!</h2>
+          </Row>
+          <Row className="Welcome-text">
+            <Col className="Welcome-blurb" md="7" sm={1}>
+              <p>
+                I've always had an interest in technology but never thought I
+                could actually code until I suddenly found myself teaching
+                online. I was a High School French teacher, and due to the
+                global pandemic, I suddenly had to figure out the best way to
+                keep my students interested through a screen. Our district used
+                the Learning Management System (LMS) Canvas, which has a lot of
+                simple things to do, but to make it even better, it allows you
+                to go into the code. I started playing with that, learning some
+                simple HTML, and realized that there were a lot of similarities
+                between learning that and learning a foreign language. Suddenly,
+                coding seemed so completely doable! I enrolled in an online
+                bootcamp with CareerFoundry and the rest is history!
+              </p>
+            </Col>
+            <Col className="Welcome-blurb">
+              <Image src={welcomePic} alt={welcome.name} />
+            </Col>
+          </Row>
+        </>
       )}
-    </div>
+    </Container>
   );
 }
 

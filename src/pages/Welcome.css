@@ -1,0 +1,19 @@
+.Welcome-container {
+  padding: 5%;
+  display: block;
+  width: auto;
+}
+
+.Welcome-text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Welcome-text > .Welcome-pic {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  width: auto;
+}

@@ -1,5 +1,6 @@
 import "./Header.css";
 import React from "react";
+import { Nav } from "react-bootstrap";
 import { Link as RouterLink } from "react-router-dom";
 
 function Header({ logo }) {
@@ -7,22 +8,48 @@ function Header({ logo }) {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>
-        <RouterLink to="/">Katy Molony</RouterLink>
+        <RouterLink to="/" style={{ textDecoration: "none", color: "black" }}>
+          Katy Molony
+        </RouterLink>
       </h1>
-      <nav>
-        <RouterLink to="/profile" className="App-link">
-          About me
-        </RouterLink>
-        <RouterLink to="/projects" className="App-link">
-          Projects
-        </RouterLink>
-        <RouterLink to="/resume" className="App-link">
-          Resume
-        </RouterLink>
-        <RouterLink to="/contact" className="App-link">
-          Contact
-        </RouterLink>
-      </nav>
+      <Nav justify>
+        <Nav.Item>
+          <RouterLink
+            to="/profile"
+            className="App-link"
+            style={{ textDecoration: "none" }}
+          >
+            About me
+          </RouterLink>
+        </Nav.Item>
+        <Nav.Item>
+          <RouterLink
+            to="/projects"
+            className="App-link"
+            style={{ textDecoration: "none" }}
+          >
+            Projects
+          </RouterLink>
+        </Nav.Item>
+        <Nav.Item>
+          <RouterLink
+            to="/resume"
+            className="App-link"
+            style={{ textDecoration: "none" }}
+          >
+            Resumé
+          </RouterLink>
+        </Nav.Item>
+        <Nav.Item>
+          <RouterLink
+            to="/contact"
+            className="App-link"
+            style={{ textDecoration: "none" }}
+          >
+            Contact
+          </RouterLink>
+        </Nav.Item>
+      </Nav>
     </header>
   );
 }
