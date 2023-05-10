@@ -4,7 +4,7 @@ project-card {
   justify-content: space-between;
 }
 
-.btn-link {
+.btn, .btn-link {
   color: #3b8296;
 }
 
