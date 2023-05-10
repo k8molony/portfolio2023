@@ -9,7 +9,6 @@ import "./ProjectDetail.css";
 export default function ProjectDetail(props) {
   let params = useParams();
   const [projectDetails, setProjectDetail] = useState({});
-  console.log(projectDetails);
   useEffect(() => {
     let index = Number(params.name) - 1;
     setProjectDetail(ProjectsJSON[index]);

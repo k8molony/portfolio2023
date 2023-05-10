@@ -55,7 +55,7 @@ function Profile({ userName }) {
                 <li>AWS </li>
               </ul>
             </Col>
-            <Col lg="5">
+            <Col lg="8">
               <img
                 className="Profile-deco"
                 src={Laptop}
