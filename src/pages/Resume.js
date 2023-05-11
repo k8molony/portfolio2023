@@ -15,8 +15,6 @@ export default function Resume(props) {
 
   const DownloadButton = ({ filename, fileurl }) => {
     const downloadFile = () => {
-      // const filename = "Resume.pdf";
-      // const fileurl = { resumePDF };
       fetch(fileurl)
         .then((response) => {
           response
