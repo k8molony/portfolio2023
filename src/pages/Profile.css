@@ -1,10 +1,14 @@
-.Profile-container {
+.Profile-container.container-fluid {
   width: 80%;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .Profile-container > h2 {
-  font-size: larger;
+  font-size: 2rem;
+}
+
+.Profile-container > h2:nth-of-type(1) {
+  margin-top: 50px;
 }
 
 .Profile-container > h3 {
@@ -12,26 +16,35 @@
   font-weight: 400;
 }
 
-.Profile-avatar {
+.row > .Profile-avatar {
   width: 150px;
   border-radius: 25px;
   display: block;
   margin: 0 auto;
   margin-top: 5%;
 }
-.Profile-container > ul {
+.Profile-container ul {
   list-style: none;
   padding: 0;
   text-align: left;
 }
-.Profile-container > ul > li {
-  display: flex;
-  justify-content: space-between;
+.Profile-container ul > li {
+  text-align: center;
 }
 .Profile-container > ul > li > span {
   font-weight: 600;
 }
 
+.Profile-container .Profile-row-info div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile-container .Profile-row-info div img {
+  max-width: 300px;
+
+}
 ul, li {
   justify-content: space-between;
 }

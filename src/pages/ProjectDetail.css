@@ -18,10 +18,14 @@
   align-items: center;
 }
 
-.projectDetails_img {
-  width: 50%;
+.projectDetails_img img {
+  width: 40%;
+  padding: 20px;
 }
 
-.btn-primary {
+.btn.back-button {
   background-color: #3b8296 !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px;
 }

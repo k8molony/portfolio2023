@@ -42,9 +42,9 @@ function Profile({ userName }) {
         <span>Loading...</span>
       ) : (
         <Container fluid className="Profile-container">
-          <Row>
-            <h1>Tech Skills:</h1>
-            <Col>
+          <h2>Tech Skills:</h2>
+          <Row className="Profile-row-info">
+            <Col sm={12} md={6}>
               <ul>
                 <li>JavaScript, TypeScript</li>
                 <li>HTML, CSS</li>
@@ -55,7 +55,7 @@ function Profile({ userName }) {
                 <li>AWS</li>
               </ul>
             </Col>
-            <Col lg="8">
+            <Col sm={12} md={6}>
               <img
                 className="Profile-deco"
                 src={Laptop}
@@ -63,30 +63,30 @@ function Profile({ userName }) {
               />
             </Col>
           </Row>
-          <h1>Life Skills:</h1>
-          <Row>
-            <Col>
+          <h2>Life Skills:</h2>
+          <Row className="Profile-row-info">
+            <Col sm={12} md={6}>
               <img
                 className="Profile-deco"
                 src={Autism}
                 alt="autism infinity sign"
               />
             </Col>
-            <Col className="Profile-text">
+            <Col className="Profile-text" sm={12} md={6}>
               <p>
                 As the parent of an autistic teenager, I try my best to help him
                 navigate the world and increase acceptance for neurodiversity
               </p>
             </Col>
           </Row>
-          <Row>
-            <Col className="Profile-text">
+          <Row className="Profile-row-info">
+            <Col className="Profile-text" sm={12} md={6}>
               <p>
                 My silly husband and I love getting out into nature, although we
                 don't get the chance to go nearly as often as we'd like!
               </p>
             </Col>
-            <Col>
+            <Col sm={12} md={6}>
               <img
                 className="Profile-deco"
                 src={Hiking}
@@ -94,15 +94,15 @@ function Profile({ userName }) {
               />
             </Col>
           </Row>
-          <Row>
-            <Col>
+          <Row className="Profile-row-info">
+            <Col sm={12} md={6}>
               <img
                 className="Profile-deco"
                 src={Hobbies}
                 alt="A collage of a tee-shirt that says Hello Darkness my old friend, a teal and purple mandala I'm crocheting, a lego set of flowers, a yellow and brown sunflower I crocheted, a red tee shirt with two hands around a uterus that says No country for old men, and a hooded scarf I made with multicolored yarn."
               />
             </Col>
-            <Col className="Profile-text">
+            <Col className="Profile-text" sm={12} md={6}>
               <p>
                 In my free time, I have lots of hobbies. I consider myself a
                 maker. I love to make things, but I like having guidelines. I

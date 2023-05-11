@@ -4,11 +4,21 @@ project-card {
   justify-content: space-between;
 }
 
-.btn, .btn-link {
+.btn.btn-link {
   color: #3b8296;
 }
 
 .btn-outline {
+  color: white;
+  background-color: #3b8296;
+  border-radius: 9999px;
+}
+
+.project-container {
+  margin: 20px;
+}
+
+.btn.button-info {
   color: white;
   background-color: #3b8296;
   border-radius: 9999px;

@@ -40,7 +40,12 @@ export default function ProjectDetail(props) {
           />
         </div>
         <Link to={`/projects`}>
-          <Button onClick={() => {}} variant="outline" size="sm">
+          <Button
+            className="back-button"
+            onClick={() => {}}
+            variant="outline"
+            size="sm"
+          >
             Back
           </Button>
         </Link>
