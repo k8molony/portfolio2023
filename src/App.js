@@ -6,7 +6,7 @@ import Welcome from "./pages/Welcome";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
-import ContactForm from "./pages/Contact2";
+import ContactForm from "./pages/Contact";
 import Resume from "./pages/Resume";
 import logo from "./assets/kmlogo.svg";
 import "./App.css";

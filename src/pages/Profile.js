@@ -75,7 +75,9 @@ function Profile({ userName }) {
             <Col className="Profile-text" sm={12} md={6}>
               <p>
                 As the parent of an autistic teenager, I try my best to help him
-                navigate the world and increase acceptance for neurodiversity
+                navigate the world and increase acceptance for neurodiversity.
+                We like to go to the pool, solve mysteries, and play Dungeons
+                and Dragons together!
               </p>
             </Col>
           </Row>
@@ -84,6 +86,10 @@ function Profile({ userName }) {
               <p>
                 My silly husband and I love getting out into nature, although we
                 don't get the chance to go nearly as often as we'd like!
+                Although I walk local trails daily, when we get a chance we like
+                to go up to Hanging Rock State Park which is just a short 40
+                minute drive away. It's even better when we get the chance to
+                camp for a night or two!
               </p>
             </Col>
             <Col sm={12} md={6}>
@@ -106,8 +112,9 @@ function Profile({ userName }) {
               <p>
                 In my free time, I have lots of hobbies. I consider myself a
                 maker. I love to make things, but I like having guidelines. I
-                crochet, I play the flute, I love making tee-shirts and
-                stickers, and my favorite thing for gifts is to include a
+                crochet with a pattern, I play the flute with sheet music, I
+                love making tee-shirts and stickers out of designs I have
+                purchased, and my favorite thing for gifts is to include a
                 handmade card!
               </p>
             </Col>
