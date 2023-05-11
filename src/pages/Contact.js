@@ -24,7 +24,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div>
+      <div className="contact-container">
         <p>I would love to hear from you!</p>
         <p>
           Reach me at&nbsp;
@@ -57,7 +57,7 @@ const ContactForm = () => {
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button className="message-button" type="submit">
           Send a message
         </Button>
       </Form>

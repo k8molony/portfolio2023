@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Container, Button, Row, Col, Card, CardGroup } from "react-bootstrap";
+import { Button, Row, Col, Card, CardGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ProjectsJSON from "../json/projects.json";
 import "./Projects.css";

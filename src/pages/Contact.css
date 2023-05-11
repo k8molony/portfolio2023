@@ -3,3 +3,22 @@ form {
   display: block;
   margin: 0 auto;
 }
+
+.btn.message-button {
+  background-color: #3b8296;
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px;
+  border-color: #3b8296;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #3b8296;
+  border-radius: 9999px;
+  border-color: #3b8296;
+}
+
+.contact-container a {
+  color: #3b8296;
+}
