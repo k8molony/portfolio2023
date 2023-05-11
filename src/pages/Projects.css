@@ -14,12 +14,12 @@ project-card {
   border-radius: 9999px;
 }
 
-.project-container {
-  margin: 20px;
-}
-
 .btn.button-info {
   color: white;
   background-color: #3b8296;
   border-radius: 9999px;
+}
+
+.row {
+  margin: 20px !important;
 }
