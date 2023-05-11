@@ -17,3 +17,16 @@
   height: 50px;
   width: auto;
 }
+
+.Welcome-blurb {
+  
+}
+
+.Welcome-blurb p {
+  float: left;
+  width: 66%;
+}
+.Welcome-blurb img {
+  float: right;
+  max-width: 150px;
+}

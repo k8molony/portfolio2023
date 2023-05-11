@@ -52,7 +52,7 @@ function Profile({ userName }) {
                 <li>Node.js, JSON, JQuery, NPM</li>
                 <li>Bootstrap</li>
                 <li>Scrum/Agile</li>
-                <li>AWS </li>
+                <li>AWS</li>
               </ul>
             </Col>
             <Col lg="8">
@@ -63,7 +63,7 @@ function Profile({ userName }) {
               />
             </Col>
           </Row>
-          <h1>Life Skills</h1>
+          <h1>Life Skills:</h1>
           <Row>
             <Col>
               <img

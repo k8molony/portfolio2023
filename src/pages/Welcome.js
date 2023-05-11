@@ -23,7 +23,7 @@ function Welcome() {
             <h2>Hi, I’m Katy!</h2>
           </Row>
           <Row className="Welcome-text">
-            <Col className="Welcome-blurb" md="8">
+            <Col className="Welcome-blurb">
               <p>
                 I've always had an interest in technology but never thought I
                 could actually code until I suddenly found myself teaching
@@ -38,8 +38,8 @@ function Welcome() {
                 coding seemed so completely doable! I enrolled in an online
                 bootcamp with CareerFoundry and the rest is history!
               </p>
-            </Col>
-            <Col className="Welcome-blurb" md="4">
+              {/* </Col>
+            <Col className="Welcome-blurb" md="4"> */}
               <Image src={welcomePic} alt={welcome.name} />
             </Col>
           </Row>
