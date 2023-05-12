@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import List from "../components/List";
 import Link from "../components/Link";
 import Laptop from "../assets/Laptop.png";
-import Autism from "../assets/autism.svg";
-import Hiking from "../assets/hiking.svg";
+import Autism from "../assets/Autism.png";
+import Hiking from "../assets/hiking.png";
 import Hobbies from "../assets/Hobbies.png";
 import "./Profile.css";
 
@@ -46,13 +46,18 @@ function Profile({ userName }) {
           <Row className="Profile-row-info">
             <Col sm={12} md={6}>
               <ul>
-                <li>JavaScript, TypeScript</li>
-                <li>HTML, CSS</li>
-                <li>React, React Native, Angular</li>
-                <li>Node.js, JSON, JQuery, NPM</li>
+                <li>JavaScript • TypeScript</li>
+                <li>HTML • CSS</li>
+                <li>React • Create-React-App • Redux</li>
+                <li>React Native • Expo</li>
+                <li>Angular</li>
+                <li>Node.js • JSON • JQuery • NPM</li>
+                <li>Express • Postman</li>
                 <li>Bootstrap</li>
                 <li>Scrum/Agile</li>
-                <li>AWS</li>
+                <li>AWS • Heroku • MongoDB</li>
+                <li>GitHub • Git Version Control</li>
+                <li>Jest • Enzyme</li>
               </ul>
             </Col>
             <Col sm={12} md={6}>
@@ -88,8 +93,8 @@ function Profile({ userName }) {
                 don't get the chance to go nearly as often as we'd like!
                 Although I walk local trails daily, when we get a chance we like
                 to go up to Hanging Rock State Park which is just a short 40
-                minute drive away. It's even better when we get the chance to
-                camp for a night or two!
+                minute drive away. It's even better when we are able to camp for
+                a night or two!
               </p>
             </Col>
             <Col sm={12} md={6}>
