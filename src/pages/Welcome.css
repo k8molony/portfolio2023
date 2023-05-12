@@ -8,6 +8,11 @@
   margin-bottom: 20px;
 }
 
+.Welcome-container h4 {
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+
 .Welcome-text {
   display: inline-flex;
   flex-direction: column;
@@ -25,5 +30,5 @@
 
 .Welcome-blurb img {
   float: right;
-  max-width: 300px;
+  max-width: 375px;
 }
