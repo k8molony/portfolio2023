@@ -44,7 +44,7 @@
     "repo": "https://github.com/k8molony/meet",
     "title": "Meet",
     "desc": "In this App users use their Google account for authentication to log-in and see upcoming events in several cities. Meet is a PWA app that works both online and offline. I created this app following the BDD and TDD approach.The data is fetched from Google Calendar API. Users can click on the events to get more information and go to the google calendar. Upcoming events are also shown in chart format.",
-    "programs": "React, Axios, AWS Lambda, Recharts, Jest/Cucumber/Puppeteer, Google Calendar API",
+    "programs": "React, Axios, AWS Lambda, Recharts, Jest/Cucumber/ Puppeteer, Google Calendar API",
     "imagePath": "/images/meet.png",
     "imagePath2":"/images/meet2.png",
     "thumbnail": "images/meetTN.png"
