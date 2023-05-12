@@ -58,6 +58,7 @@ function Profile({ userName }) {
                 <li>AWS • Heroku • MongoDB</li>
                 <li>GitHub • Git Version Control</li>
                 <li>Jest • Enzyme</li>
+                <li>Kanban</li>
               </ul>
             </Col>
             <Col sm={12} md={6}>
