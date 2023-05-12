@@ -21,6 +21,7 @@ function Welcome() {
         <>
           <Row>
             <h2>Hi, I’m Katy!</h2>
+            <h4>I create beautiful, functional websites.</h4>
           </Row>
           <Row className="Welcome-text">
             <Col className="Welcome-blurb">
