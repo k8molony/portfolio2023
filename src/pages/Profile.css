@@ -11,11 +11,6 @@
   margin-top: 50px;
 }
 
-.Profile-container > h3 {
-  font-size: large;
-  font-weight: 400;
-}
-
 .row > .Profile-avatar {
   width: 150px;
   border-radius: 25px;
@@ -42,7 +37,7 @@
 }
 
 .Profile-container .Profile-row-info div img {
-  max-width: 300px;
+  max-width: 400px;
 
 }
 ul, li {
