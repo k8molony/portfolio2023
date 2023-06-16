@@ -4,11 +4,11 @@
   width: auto;
 }
 
-.Welcome-container h2 {
+.Welcome-container h1 {
   margin-bottom: 20px;
 }
 
-.Welcome-container h4 {
+.Welcome-container h2 {
   color: black;
   text-shadow: 2px 2px 4px;
 }
